@@ -168,4 +168,4 @@ async def chat(topic_id: str, request: Request):
 if __name__ == "__main__":
     load_dotenv(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".env"))
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8080)
+    uvicorn.run(app, host="0.0.0.0", port=11111)

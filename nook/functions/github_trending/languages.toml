@@ -1,2 +1,14 @@
 [[languages]]
-name = "python"
+name = "go"
+
+[[languages]]
+name = "Design Parttern"
+
+[[languages]]
+name = "Software Architecture"
+
+[[languages]]
+name = "DDD"
+
+[[languages]]
+name = "Domain Driven Design"

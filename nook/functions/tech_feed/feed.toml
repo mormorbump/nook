@@ -4,11 +4,32 @@ name = "Google Research Blog"
 url = "https://research.google/blog/rss/"
 
 [[feeds]]
-key = "deepmind_blog"
-name = "DeepMind Blog"
-url = "https://deepmind.google/blog/rss.xml"
-
-[[feeds]]
 key = "openai_news"
 name = "OpenAI News"
 url = "https://openai.com/news/rss.xml"
+
+[[feeds]]
+key = "company_blog"
+name = "Company Blog"
+url = "https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml"
+
+[[feeds]]
+key = "qiita_trend"
+name = "Qiita Trend"
+url = "https://qiita.com/popular-items/feed"
+
+[[feeds]]
+key = "zenn_trend"
+name = "Zenn Trend"
+url = "https://zenn.dev/feed"
+
+[[feeds]]
+key = "hatena_trend"
+name = "Hatena Trend"
+url = "https://b.hatena.ne.jp/hotentry/it.rss"
+
+[[feeds]]
+key = "codezine_trend"
+name = "CodeZine Trend"
+url = "https://codezine.jp/rss/new/20/index.xml"
+
