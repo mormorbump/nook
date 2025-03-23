@@ -89,6 +89,8 @@ class RedditExplorer:
             url = self._get_video_url(post) if post_type == "video" else post.url
 
             # filter out undesired posts
+            if post.author is None:
+                continue
             if post.author.name == "AutoModerator":
                 continue
             if "megathread" in post.title.lower():
